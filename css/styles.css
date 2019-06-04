@@ -1,0 +1,18 @@
+.col-md-6 {
+  text-align: center;
+}
+
+h1 , p{
+  text-align: center;
+}
+
+
+body{
+  background-color: lightblue;
+}
+
+
+ul {
+  text-align: center;
+  list-style: inside;
+}
