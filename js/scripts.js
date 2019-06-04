@@ -1,11 +1,12 @@
 
 $(function() {
   $("button#meow").click(function() {
+    $("ul#cat_says").prepend("<li><img src='img/cat.jpeg'></li>");
     $("ul#cat_says").prepend("<li>Meow! Hello!</li>");
-    $("ul#cat_says").before("<p>hi there<p>");
+
     $("ul#dog_says").prepend("<li>Bark! Why hello there!</li>");
     $("ul#cat_says").children("li").first().click(function() {
-    $(this).remove();
+      $(this).remove();
     });
     $("ul#dog_says").children("li").first().click(function() {
       $(this).remove();
